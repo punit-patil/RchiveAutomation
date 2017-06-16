@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RegressionTest]">
+  <test name="AdminLogin">
+    <classes>
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest"/>
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest"/>
+    </classes>
+  </test> <!-- AdminLogin -->
+  <test name="UserSignUP">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest"/>
+    </classes>
+  </test> <!-- UserSignUP -->
+  <test name="VerifySignUpEmail">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest"/>
+    </classes>
+  </test> <!-- VerifySignUpEmail -->
+  <test name="DeleteSignUpEmail">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest"/>
+    </classes>
+  </test> <!-- DeleteSignUpEmail -->
+  <test name="LoginWithEmail">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest"/>
+    </classes>
+  </test> <!-- LoginWithEmail -->
+  <test name="UploadScreenplay">
+    <classes>
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest"/>
+    </classes>
+  </test> <!-- UploadScreenplay -->
+  <test name="SendConnectionRequest">
+    <classes>
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest"/>
+    </classes>
+  </test> <!-- SendConnectionRequest -->
+  <test name="AcceptConnectionRequest">
+    <classes>
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest"/>
+    </classes>
+  </test> <!-- AcceptConnectionRequest -->
+  <test name="VerifyConnectionRequestEmail">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest"/>
+    </classes>
+  </test> <!-- VerifyConnectionRequestEmail -->
+  <test name="ScreenplayShareToConnectedUser">
+    <classes>
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest"/>
+    </classes>
+  </test> <!-- ScreenplayShareToConnectedUser -->
+  <test name="ReadScreenplaySharedToConnectedUser">
+    <classes>
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest"/>
+    </classes>
+  </test> <!-- ReadScreenplaySharedToConnectedUser -->
+  <test name="VerifyConnectionShareEmail">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest"/>
+    </classes>
+  </test> <!-- VerifyConnectionShareEmail -->
+  <test name="SmartShare">
+    <classes>
+      <class name="co.rchive.test.spec.share.SmartShareTest"/>
+    </classes>
+  </test> <!-- SmartShare -->
+  <test name="VerifySmartShareEmail">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest"/>
+    </classes>
+  </test> <!-- VerifySmartShareEmail -->
+  <test name="LoginThroughFB">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest"/>
+    </classes>
+  </test> <!-- LoginThroughFB -->
+  <test name="LoginThroughTwitter">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest"/>
+    </classes>
+  </test> <!-- LoginThroughTwitter -->
+  <test name="UploadScreenplay(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="uploadSid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- UploadScreenplay(failed) -->
+  <test name="AcceptConnectionRequest(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="acceptConnectionReq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- AcceptConnectionRequest(failed) -->
+  <test name="VerifyConnectionRequestEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="verifyEmailForConRequest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- VerifyConnectionRequestEmail(failed) -->
+  <test name="ScreenplayShareToConnectedUser(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="shareToConnectedUser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- ScreenplayShareToConnectedUser(failed) -->
+  <test name="ReadScreenplaySharedToConnectedUser(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="ReadConUserSharedScreen"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- ReadScreenplaySharedToConnectedUser(failed) -->
+  <test name="SmartShare(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="smartShare"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- SmartShare(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

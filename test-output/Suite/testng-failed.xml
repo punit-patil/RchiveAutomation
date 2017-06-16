@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest"/>
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest"/>
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest"/>
+      <class name="co.rchive.test.testbase.TestBase"/>
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="uploadSid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

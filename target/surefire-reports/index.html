@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RegressionTest">
+              <span class="suite-name border-failed">RegressionTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RegressionTest">
+                    <span>F:\rchiveAutomation_TestNG\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RegressionTest">
+                    <span class="test-stats">22 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RegressionTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RegressionTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RegressionTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RegressionTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RegressionTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 6 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionTest" class="hide-methods failed suite-RegressionTest"> (hide)</a> <!-- hide-methods failed suite-RegressionTest -->
+                      <a href="#" panel-name="suite-RegressionTest" class="show-methods failed suite-RegressionTest"> (show)</a> <!-- show-methods failed suite-RegressionTest -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest" hash-for-method="ReadConUserSharedScreen">ReadConUserSharedScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest" hash-for-method="acceptConnectionReq">acceptConnectionReq</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.share.ShareToConnectedUserTest" hash-for-method="shareToConnectedUser">shareToConnectedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.share.SmartShareTest" hash-for-method="smartShare">smartShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.uploadscreenplay.UploadSidTest" hash-for-method="uploadSid">uploadSid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest" hash-for-method="verifyEmailForConRequest">verifyEmailForConRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionTest" class="hide-methods passed suite-RegressionTest"> (hide)</a> <!-- hide-methods passed suite-RegressionTest -->
+                      <a href="#" panel-name="suite-RegressionTest" class="show-methods passed suite-RegressionTest"> (show)</a> <!-- show-methods passed suite-RegressionTest -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.beforelogin.SignUpTest" hash-for-method="SignUpWithEmail">SignUpWithEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.adminpage.AdminLoginTest" hash-for-method="adminLoginTest">adminLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.adminpage.DeleteWritersTest" hash-for-method="delWriterTest">delWriterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest" hash-for-method="deleteEmailforSignUp">deleteEmailforSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.beforelogin.LoginWithEmailTest" hash-for-method="loginWithEmail">loginWithEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest" hash-for-method="loginWithFBandDashboardLinksTest">loginWithFBandDashboardLinksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.myconnections.SendConnectionRequestTest" hash-for-method="sendconnectionRequest">sendconnectionRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest" hash-for-method="twitterLogin">twitterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest" hash-for-method="verifyEmailForConShare">verifyEmailForConShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest" hash-for-method="verifyEmailforSignUp">verifyEmailforSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest" hash-for-method="verifySmartShareLink">verifySmartShareLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionTest" class="panel RegressionTest">
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.myconnections.AcceptConnectionRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="acceptConnectionReq">
+                  </a> <!-- acceptConnectionReq -->
+                  <span class="method-name">acceptConnectionReq</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 23.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcc180d5-9a6d-4541-8920-9dad04b3ea5b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at co.rchive.pages.userpages.MyConnectionsPage.isCurrentMyConnectionsWin(MyConnectionsPage.java:79)
+	at co.rchive.pages.userpages.MyConnectionsPage.checkRecievedConnectionStatus(MyConnectionsPage.java:165)
+	at co.rchive.spec.userpages.MyConnectionSpecDefinition.acceptConnecctionReq(MyConnectionSpecDefinition.java:36)
+	at co.rchive.test.spec.myconnections.AcceptConnectionRequestTest.acceptConnectionReq(AcceptConnectionRequestTest.java:27)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9454)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9039)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12092)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailForConRequest">
+                  </a> <!-- verifyEmailForConRequest -->
+                  <span class="method-name">verifyEmailForConRequest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at co.rchive.spec.verifyemails.VerifyEmailSpecDefinition.verifyRchiveConRequestMail(VerifyEmailSpecDefinition.java:57)
+	at co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest.verifyEmailForConRequest(VerifyConRequestEmailTest.java:24)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.share.SmartShareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="smartShare">
+                  </a> <!-- smartShare -->
+                  <span class="method-name">smartShare</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//div[@id=&apos;first-doc2&apos;])[1]&apos;
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e240d5-d5a0-4fe4-aa9a-a49b4796b30c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.selectScreenplay(DashboardSpecDefinition.java:39)
+	at co.rchive.spec.userpages.ShareSpecDefinition.selectScreenPlay(ShareSpecDefinition.java:38)
+	at co.rchive.test.spec.share.SmartShareTest.smartShare(SmartShareTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e240d5-d5a0-4fe4-aa9a-a49b4796b30c
+*** Element info: {Using=xpath, value=(//div[@id=&apos;first-doc2&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous2016850576127552426webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous2016850576127552426webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.uploadscreenplay.UploadSidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadSid">
+                  </a> <!-- uploadSid -->
+                  <span class="method-name">uploadSid</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//div[@id=&apos;first-doc2&apos;])[1]&apos;
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a839f931-84d8-47a8-aba7-4338e0b56fb6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.uploadSid(DashboardSpecDefinition.java:56)
+	at co.rchive.test.spec.uploadscreenplay.UploadSidTest.uploadSid(UploadSidTest.java:25)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+Command duration or timeout: 20.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a839f931-84d8-47a8-aba7-4338e0b56fb6
+*** Element info: {Using=xpath, value=(//div[@id=&apos;first-doc2&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous6239896903467001069webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous6239896903467001069webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.share.ShareToConnectedUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareToConnectedUser">
+                  </a> <!-- shareToConnectedUser -->
+                  <span class="method-name">shareToConnectedUser</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//div[@id=&apos;first-doc2&apos;])[1]&apos;
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 192cc045-843a-4d24-8b87-f64bd8307300
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.selectScreenplay(DashboardSpecDefinition.java:39)
+	at co.rchive.spec.userpages.ShareSpecDefinition.selectScreenPlay(ShareSpecDefinition.java:38)
+	at co.rchive.test.spec.share.ShareToConnectedUserTest.shareToConnectedUser(ShareToConnectedUserTest.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 192cc045-843a-4d24-8b87-f64bd8307300
+*** Element info: {Using=xpath, value=(//div[@id=&apos;first-doc2&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;first-doc2&apos;])[1]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ThinkPad-PC&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous4116577739490171885webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous4116577739490171885webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReadConUserSharedScreen">
+                  </a> <!-- ReadConUserSharedScreen -->
+                  <span class="method-name">ReadConUserSharedScreen</span>
+                  <div class="stack-trace">java.lang.ArrayIndexOutOfBoundsException: 1
+	at co.rchive.pages.userpages.DashBoardPage.readSharedScreenplayThroughNotification(DashBoardPage.java:232)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.readConSharedScreenplay(DashboardSpecDefinition.java:31)
+	at co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest.ReadConUserSharedScreen(ReadConnectionUserSharedScreenplayTest.java:26)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-failed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.myconnections.SendConnectionRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendconnectionRequest">
+                  </a> <!-- sendconnectionRequest -->
+                  <span class="method-name">sendconnectionRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitterLogin">
+                  </a> <!-- twitterLogin -->
+                  <span class="method-name">twitterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailforSignUp">
+                  </a> <!-- verifyEmailforSignUp -->
+                  <span class="method-name">verifyEmailforSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmailforSignUp">
+                  </a> <!-- deleteEmailforSignUp -->
+                  <span class="method-name">deleteEmailforSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.verifyemails.VerifyConShareEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailForConShare">
+                  </a> <!-- verifyEmailForConShare -->
+                  <span class="method-name">verifyEmailForConShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.beforelogin.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithEmail">
+                  </a> <!-- SignUpWithEmail -->
+                  <span class="method-name">SignUpWithEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.adminpage.DeleteWritersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delWriterTest">
+                  </a> <!-- delWriterTest -->
+                  <span class="method-name">delWriterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.adminpage.AdminLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLoginTest">
+                  </a> <!-- adminLoginTest -->
+                  <span class="method-name">adminLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithFBandDashboardLinksTest">
+                  </a> <!-- loginWithFBandDashboardLinksTest -->
+                  <span class="method-name">loginWithFBandDashboardLinksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmartShareLink">
+                  </a> <!-- verifySmartShareLink -->
+                  <span class="method-name">verifySmartShareLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.rchive.test.spec.beforelogin.LoginWithEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmail">
+                  </a> <!-- loginWithEmail -->
+                  <span class="method-name">loginWithEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+        </div> <!-- panel RegressionTest -->
+        <div panel-name="test-xml-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\rchiveAutomation_TestNG\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;RegressionTest&quot;&gt;
+  &lt;test name=&quot;AdminLogin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;/&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AdminLogin --&gt;
+  &lt;test name=&quot;UserSignUP&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UserSignUP --&gt;
+  &lt;test name=&quot;VerifySignUpEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifySignUpEmail --&gt;
+  &lt;test name=&quot;DeleteSignUpEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeleteSignUpEmail --&gt;
+  &lt;test name=&quot;LoginWithEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginWithEmail --&gt;
+  &lt;test name=&quot;UploadScreenplay&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadScreenplay --&gt;
+  &lt;test name=&quot;SendConnectionRequest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SendConnectionRequest --&gt;
+  &lt;test name=&quot;AcceptConnectionRequest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AcceptConnectionRequest --&gt;
+  &lt;test name=&quot;VerifyConnectionRequestEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyConnectionRequestEmail --&gt;
+  &lt;test name=&quot;ScreenplayShareToConnectedUser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ScreenplayShareToConnectedUser --&gt;
+  &lt;test name=&quot;ReadScreenplaySharedToConnectedUser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReadScreenplaySharedToConnectedUser --&gt;
+  &lt;test name=&quot;VerifyConnectionShareEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyConnectionShareEmail --&gt;
+  &lt;test name=&quot;SmartShare&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmartShare --&gt;
+  &lt;test name=&quot;VerifySmartShareEmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifySmartShareEmail --&gt;
+  &lt;test name=&quot;LoginThroughFB&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginThroughFB --&gt;
+  &lt;test name=&quot;LoginThroughTwitter&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginThroughTwitter --&gt;
+  &lt;test name=&quot;UploadScreenplay(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;uploadSid&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadScreenplay(failed) --&gt;
+  &lt;test name=&quot;AcceptConnectionRequest(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;acceptConnectionReq&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AcceptConnectionRequest(failed) --&gt;
+  &lt;test name=&quot;VerifyConnectionRequestEmail(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyEmailForConRequest&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyConnectionRequestEmail(failed) --&gt;
+  &lt;test name=&quot;ScreenplayShareToConnectedUser(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shareToConnectedUser&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ScreenplayShareToConnectedUser(failed) --&gt;
+  &lt;test name=&quot;ReadScreenplaySharedToConnectedUser(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ReadConUserSharedScreen&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReadScreenplaySharedToConnectedUser(failed) --&gt;
+  &lt;test name=&quot;SmartShare(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.AcceptConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.uploadscreenplay.UploadSidTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ShareToConnectedUserTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ShareToConnectedUserTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.LoginWithEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.myconnections.SendConnectionRequestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifyConShareEmailTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.SmartShareTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;smartShare&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.SmartShareTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.beforelogin.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.beforelogin.SignUpTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.DeleteWritersTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.DeleteWritersTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.adminpage.AdminLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.adminpage.AdminLoginTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest --&gt;
+      &lt;class name=&quot;co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmartShare(failed) --&gt;
+&lt;/suite&gt; &lt;!-- RegressionTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AdminLogin (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">UserSignUP (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifySignUpEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeleteSignUpEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginWithEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadScreenplay (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SendConnectionRequest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AcceptConnectionRequest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyConnectionRequestEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ScreenplayShareToConnectedUser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ReadScreenplaySharedToConnectedUser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyConnectionShareEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SmartShare (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifySmartShareEmail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginThroughFB (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginThroughTwitter (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadScreenplay(failed) (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">AcceptConnectionRequest(failed) (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyConnectionRequestEmail(failed) (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ScreenplayShareToConnectedUser(failed) (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ReadScreenplaySharedToConnectedUser(failed) (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">SmartShare(failed) (17 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionTest');
+function tableData_RegressionTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uploadSid')
+data.setCell(0, 2, 'co.rchive.test.spec.uploadscreenplay.UploadSidTest')
+data.setCell(0, 3, 58027);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'smartShare')
+data.setCell(1, 2, 'co.rchive.test.spec.share.SmartShareTest')
+data.setCell(1, 3, 48750);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shareToConnectedUser')
+data.setCell(2, 2, 'co.rchive.test.spec.share.ShareToConnectedUserTest')
+data.setCell(2, 3, 45764);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithFBandDashboardLinksTest')
+data.setCell(3, 2, 'co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest')
+data.setCell(3, 3, 42476);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'acceptConnectionReq')
+data.setCell(4, 2, 'co.rchive.test.spec.myconnections.AcceptConnectionRequestTest')
+data.setCell(4, 3, 32422);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySmartShareLink')
+data.setCell(5, 2, 'co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest')
+data.setCell(5, 3, 31916);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyEmailforSignUp')
+data.setCell(6, 2, 'co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest')
+data.setCell(6, 3, 24439);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sendconnectionRequest')
+data.setCell(7, 2, 'co.rchive.test.spec.myconnections.SendConnectionRequestTest')
+data.setCell(7, 3, 18890);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'delWriterTest')
+data.setCell(8, 2, 'co.rchive.test.spec.adminpage.DeleteWritersTest')
+data.setCell(8, 3, 18553);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'twitterLogin')
+data.setCell(9, 2, 'co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest')
+data.setCell(9, 3, 16109);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyEmailForConShare')
+data.setCell(10, 2, 'co.rchive.test.spec.verifyemails.VerifyConShareEmailTest')
+data.setCell(10, 3, 14211);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteEmailforSignUp')
+data.setCell(11, 2, 'co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest')
+data.setCell(11, 3, 13826);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyEmailForConRequest')
+data.setCell(12, 2, 'co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest')
+data.setCell(12, 3, 13602);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithEmail')
+data.setCell(13, 2, 'co.rchive.test.spec.beforelogin.LoginWithEmailTest')
+data.setCell(13, 3, 9064);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ReadConUserSharedScreen')
+data.setCell(14, 2, 'co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest')
+data.setCell(14, 3, 7101);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'adminLoginTest')
+data.setCell(15, 2, 'co.rchive.test.spec.adminpage.AdminLoginTest')
+data.setCell(15, 3, 6506);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SignUpWithEmail')
+data.setCell(16, 2, 'co.rchive.test.spec.beforelogin.SignUpTest')
+data.setCell(16, 3, 5144);
+window.suiteTableData['RegressionTest']= { tableData: data, tableDiv: 'times-div-RegressionTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-RegressionTest">
+              </div> <!-- times-div-RegressionTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.rchive.test.spec.adminpage.DeleteWritersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.adminpage.AdminLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void co.rchive.test.spec.adminpage.AdminLoginTest.adminLoginTest())</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminLoginTest</span>
+                <span class="method-start">38610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45252 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.adminpage.DeleteWritersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void co.rchive.test.spec.adminpage.DeleteWritersTest.delWriterTest())</span>
+                <span class="method-start">45278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">delWriterTest</span>
+                <span class="method-start">58695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77248 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.beforelogin.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77357 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SignUpWithEmail</span>
+                <span class="method-start">89309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94453 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94478 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailforSignUp</span>
+                <span class="method-start">107333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131773 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134022 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">deleteEmailforSignUp</span>
+                <span class="method-start">145181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159007 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.beforelogin.LoginWithEmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">161403 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmail</span>
+                <span class="method-start">178744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187808 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.uploadscreenplay.UploadSidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">187840 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">uploadSid</span>
+                <span class="method-start">199432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257495 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.myconnections.SendConnectionRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257604 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">sendconnectionRequest</span>
+                <span class="method-start">269231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288121 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.myconnections.AcceptConnectionRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">288132 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">acceptConnectionReq</span>
+                <span class="method-start">301704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334128 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">334220 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyEmailForConRequest</span>
+                <span class="method-start">362156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">375759 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.share.ShareToConnectedUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">375895 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareToConnectedUser</span>
+                <span class="method-start">388326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">434093 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">434137 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ReadConUserSharedScreen</span>
+                <span class="method-start">445387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">452489 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.verifyemails.VerifyConShareEmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">452625 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailForConShare</span>
+                <span class="method-start">458688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">472900 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.share.SmartShareTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">475075 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">smartShare</span>
+                <span class="method-start">490089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">538841 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">538903 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifySmartShareLink</span>
+                <span class="method-start">545825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">577741 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">579142 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithFBandDashboardLinksTest</span>
+                <span class="method-start">592102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">634578 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">635496 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">twitterLogin</span>
+                <span class="method-start">648397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">664506 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.rchive.test.spec.adminpage.AdminLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">664565 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

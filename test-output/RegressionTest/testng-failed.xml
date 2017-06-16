@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTest]">
+  <test name="UserSignUP(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="tearDown"/>
+          <include name="SignUpWithEmail"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+    </classes>
+  </test> <!-- UserSignUP(failed) -->
+  <test name="VerifySignUpEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="verifyEmailforSignUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+    </classes>
+  </test> <!-- VerifySignUpEmail(failed) -->
+  <test name="DeleteSignUpEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="deleteEmailforSignUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+    </classes>
+  </test> <!-- DeleteSignUpEmail(failed) -->
+  <test name="LoginWithEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="tearDown"/>
+          <include name="loginWithEmail"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+    </classes>
+  </test> <!-- LoginWithEmail(failed) -->
+  <test name="UploadScreenplay(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="uploadSid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+    </classes>
+  </test> <!-- UploadScreenplay(failed) -->
+  <test name="SendConnectionRequest(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="sendconnectionRequest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+    </classes>
+  </test> <!-- SendConnectionRequest(failed) -->
+  <test name="AcceptConnectionRequest(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="tearDown"/>
+          <include name="acceptConnectionReq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+    </classes>
+  </test> <!-- AcceptConnectionRequest(failed) -->
+  <test name="VerifyConnectionRequestEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="verifyEmailForConRequest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+    </classes>
+  </test> <!-- VerifyConnectionRequestEmail(failed) -->
+  <test name="ScreenplayShareToConnectedUser(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="shareToConnectedUser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+    </classes>
+  </test> <!-- ScreenplayShareToConnectedUser(failed) -->
+  <test name="ReadScreenplaySharedToConnectedUser(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="ReadConUserSharedScreen"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </classes>
+  </test> <!-- ReadScreenplaySharedToConnectedUser(failed) -->
+  <test name="VerifyConnectionShareEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="verifyEmailForConShare"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+    </classes>
+  </test> <!-- VerifyConnectionShareEmail(failed) -->
+  <test name="SmartShare(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="smartShare"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+    </classes>
+  </test> <!-- SmartShare(failed) -->
+  <test name="VerifySmartShareEmail(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="verifySmartShareLink"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+    </classes>
+  </test> <!-- VerifySmartShareEmail(failed) -->
+  <test name="LoginThroughFB(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <methods>
+          <include name="loginWithFBandDashboardLinksTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+    </classes>
+  </test> <!-- LoginThroughFB(failed) -->
+  <test name="LoginThroughTwitter(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <methods>
+          <include name="twitterLogin"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+    </classes>
+  </test> <!-- LoginThroughTwitter(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="SignUpTest">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest"/>
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest"/>
+      <class name="co.rchive.test.testbase.TestBase"/>
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest"/>
+    </classes>
+  </test> <!-- SignUpTest -->
+  <test name="SignUpTest(failed)">
+    <classes>
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <methods>
+          <include name="SignUpWithEmail"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <methods>
+          <include name="verifyEmailforSignUp"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <methods>
+          <include name="sendconnectionRequest"/>
+        </methods>
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

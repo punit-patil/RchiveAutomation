@@ -1,0 +1,119 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+	<test name="AdminLogin">
+		<classes>
+		
+			<class name="co.rchive.test.spec.adminpage.AdminLoginTest" />
+			<class name="co.rchive.test.spec.adminpage.DeleteWritersTest" />
+			
+			<!-- used two class in single classes/test tag bcoz in AdminTestBase class
+			     we used @BeforeMethod and @AfterMethod by this AdminTestBase class
+			     methods executes for both the classes  -->
+			     
+			<!-- <class name="co.rchive.test.spec.beforelogin.SignUpTest" /> -->
+			
+		</classes>
+
+
+	</test>
+
+	<!-- <test name="DeleteUser"> -->
+	<!-- <classes> -->
+	<!-- <class name="co.rchive.test.spec.adminpage.DeleteWritersTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<test name="UserSignUP">
+		<classes>
+			<class name="co.rchive.test.spec.beforelogin.SignUpTest" />
+		</classes>
+	</test>
+
+	<test name="VerifySignUpEmail">
+		<classes>
+			<class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest" />
+		</classes>
+	</test>
+	<test name="DeleteSignUpEmail">
+		<classes>
+			<class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest" />
+		</classes>
+	</test>
+
+	<test name="LoginWithEmail">
+		<classes>
+			<class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest" />
+		</classes>
+	</test>
+	<test name="UploadScreenplay">
+		<classes>
+			<class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest" />
+		</classes>
+	</test>
+	<test name="SendConnectionRequest">
+		<classes>
+			<class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest" />
+		</classes>
+	</test>
+
+	<test name="AcceptConnectionRequest">
+		<classes>
+			<class
+				name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest" />
+		</classes>
+	</test>
+
+	<test name="VerifyConnectionRequestEmail">
+		<classes>
+			<class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest" />
+		</classes>
+
+	</test>
+
+	<test name="ScreenplayShareToConnectedUser">
+		<classes>
+			<class name="co.rchive.test.spec.share.ShareToConnectedUserTest" />
+		</classes>
+	</test>
+
+	<test name="ReadScreenplaySharedToConnectedUser">
+		<classes>
+			<class
+				name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest" />
+		</classes>
+	</test>
+
+	<test name="VerifyConnectionShareEmail">
+		<classes>
+			<class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest" />
+		</classes>
+	</test>
+
+
+	<test name="SmartShare">
+		<classes>
+			<class name="co.rchive.test.spec.share.SmartShareTest" />
+		</classes>
+	</test>
+
+	<test name="VerifySmartShareEmail">
+		<classes>
+			<class
+				name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest" />
+		</classes>
+	</test>
+
+	<test name="LoginThroughFB">
+		<classes>
+			<class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest" />
+		</classes>
+	</test>
+
+	<test name="LoginThroughTwitter">
+		<classes>
+			<class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest" />
+		</classes>
+	</test>
+
+</suite> 
+

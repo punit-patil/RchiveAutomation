@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="17" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionTest" duration-ms="664499" started-at="2017-06-15T10:13:35Z" finished-at="2017-06-15T10:24:40Z">
+    <groups>
+    </groups>
+    <test name="AdminLogin" duration-ms="77240" started-at="2017-06-15T10:13:35Z" finished-at="2017-06-15T10:14:53Z">
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:co.rchive.test.spec.adminpage.AdminLoginTest@5ba23b66]" name="setUp" is-config="true" duration-ms="38590" started-at="2017-06-15T15:43:35Z" finished-at="2017-06-15T15:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.rchive.test.spec.adminpage.AdminLoginTest.adminLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="adminLoginTest()[pri:0, instance:co.rchive.test.spec.adminpage.AdminLoginTest@5ba23b66]" name="adminLoginTest" duration-ms="6506" started-at="2017-06-15T15:44:14Z" finished-at="2017-06-15T15:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.adminpage.AdminLoginTest@5ba23b66]" name="tearDown" is-config="true" duration-ms="24" started-at="2017-06-15T15:44:21Z" finished-at="2017-06-15T15:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.adminpage.DeleteWritersTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:co.rchive.test.spec.adminpage.DeleteWritersTest@2ff4f00f]" name="setUp" is-config="true" duration-ms="13417" started-at="2017-06-15T15:44:21Z" finished-at="2017-06-15T15:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.rchive.test.spec.adminpage.DeleteWritersTest.delWriterTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="delWriterTest()[pri:0, instance:co.rchive.test.spec.adminpage.DeleteWritersTest@2ff4f00f]" name="delWriterTest" duration-ms="18553" started-at="2017-06-15T15:44:34Z" finished-at="2017-06-15T15:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delWriterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.adminpage.DeleteWritersTest@2ff4f00f]" name="tearDown" is-config="true" duration-ms="6" started-at="2017-06-15T15:44:53Z" finished-at="2017-06-15T15:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.adminpage.DeleteWritersTest -->
+    </test> <!-- AdminLogin -->
+    <test name="UserSignUP" duration-ms="17118" started-at="2017-06-15T10:14:53Z" finished-at="2017-06-15T10:15:10Z">
+      <class name="co.rchive.test.spec.beforelogin.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.beforelogin.SignUpTest@49e4cb85]" name="setUp" is-config="true" duration-ms="11952" started-at="2017-06-15T15:44:53Z" finished-at="2017-06-15T15:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpWithEmail()[pri:0, instance:co.rchive.test.spec.beforelogin.SignUpTest@49e4cb85]" name="SignUpWithEmail" duration-ms="5144" started-at="2017-06-15T15:45:05Z" finished-at="2017-06-15T15:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.beforelogin.SignUpTest@49e4cb85]" name="tearDown" is-config="true" duration-ms="22" started-at="2017-06-15T15:45:10Z" finished-at="2017-06-15T15:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.beforelogin.SignUpTest -->
+    </test> <!-- UserSignUP -->
+    <test name="VerifySignUpEmail" duration-ms="39542" started-at="2017-06-15T10:15:10Z" finished-at="2017-06-15T10:15:49Z">
+      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest@1e643faf]" name="setUp" is-config="true" duration-ms="12855" started-at="2017-06-15T15:45:10Z" finished-at="2017-06-15T15:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmailforSignUp()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest@1e643faf]" name="verifyEmailforSignUp" duration-ms="24439" started-at="2017-06-15T15:45:23Z" finished-at="2017-06-15T15:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailforSignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest@1e643faf]" name="tearDown" is-config="true" duration-ms="2247" started-at="2017-06-15T15:45:47Z" finished-at="2017-06-15T15:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+    </test> <!-- VerifySignUpEmail -->
+    <test name="DeleteSignUpEmail" duration-ms="27378" started-at="2017-06-15T10:15:49Z" finished-at="2017-06-15T10:16:17Z">
+      <class name="co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest@7f63425a]" name="setUp" is-config="true" duration-ms="11158" started-at="2017-06-15T15:45:49Z" finished-at="2017-06-15T15:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmailforSignUp()[pri:0, instance:co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest@7f63425a]" name="deleteEmailforSignUp" duration-ms="13826" started-at="2017-06-15T15:46:01Z" finished-at="2017-06-15T15:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmailforSignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest@7f63425a]" name="tearDown" is-config="true" duration-ms="2393" started-at="2017-06-15T15:46:14Z" finished-at="2017-06-15T15:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.verifyemails.DeleteSignUpEmailTest -->
+    </test> <!-- DeleteSignUpEmail -->
+    <test name="LoginWithEmail" duration-ms="26414" started-at="2017-06-15T10:16:17Z" finished-at="2017-06-15T10:16:43Z">
+      <class name="co.rchive.test.spec.beforelogin.LoginWithEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.beforelogin.LoginWithEmailTest@57829d67]" name="setUp" is-config="true" duration-ms="17341" started-at="2017-06-15T15:46:17Z" finished-at="2017-06-15T15:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithEmail()[pri:0, instance:co.rchive.test.spec.beforelogin.LoginWithEmailTest@57829d67]" name="loginWithEmail" duration-ms="9064" started-at="2017-06-15T15:46:34Z" finished-at="2017-06-15T15:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.beforelogin.LoginWithEmailTest@57829d67]" name="tearDown" is-config="true" duration-ms="9" started-at="2017-06-15T15:46:43Z" finished-at="2017-06-15T15:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.beforelogin.LoginWithEmailTest -->
+    </test> <!-- LoginWithEmail -->
+    <test name="UploadScreenplay" duration-ms="69665" started-at="2017-06-15T10:16:43Z" finished-at="2017-06-15T10:17:53Z">
+      <class name="co.rchive.test.spec.uploadscreenplay.UploadSidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.uploadscreenplay.UploadSidTest@71be98f5]" name="setUp" is-config="true" duration-ms="11592" started-at="2017-06-15T15:46:43Z" finished-at="2017-06-15T15:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="uploadSid()[pri:0, instance:co.rchive.test.spec.uploadscreenplay.UploadSidTest@71be98f5]" name="uploadSid" duration-ms="58027" started-at="2017-06-15T15:46:55Z" finished-at="2017-06-15T15:47:53Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a839f931-84d8-47a8-aba7-4338e0b56fb6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a839f931-84d8-47a8-aba7-4338e0b56fb6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.uploadSid(DashboardSpecDefinition.java:56)
+	at co.rchive.test.spec.uploadscreenplay.UploadSidTest.uploadSid(UploadSidTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+Command duration or timeout: 20.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a839f931-84d8-47a8-aba7-4338e0b56fb6
+*** Element info: {Using=xpath, value=(//div[@id='first-doc2'])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous6239896903467001069webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/TEMP/anonymous6239896903467001069webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadSid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.uploadscreenplay.UploadSidTest@71be98f5]" name="tearDown" is-config="true" duration-ms="10" started-at="2017-06-15T15:47:53Z" finished-at="2017-06-15T15:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.uploadscreenplay.UploadSidTest -->
+    </test> <!-- UploadScreenplay -->
+    <test name="SendConnectionRequest" duration-ms="30525" started-at="2017-06-15T10:17:53Z" finished-at="2017-06-15T10:18:24Z">
+      <class name="co.rchive.test.spec.myconnections.SendConnectionRequestTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.myconnections.SendConnectionRequestTest@67b64c45]" name="setUp" is-config="true" duration-ms="11626" started-at="2017-06-15T15:47:53Z" finished-at="2017-06-15T15:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendconnectionRequest()[pri:0, instance:co.rchive.test.spec.myconnections.SendConnectionRequestTest@67b64c45]" name="sendconnectionRequest" duration-ms="18890" started-at="2017-06-15T15:48:05Z" finished-at="2017-06-15T15:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendconnectionRequest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.myconnections.SendConnectionRequestTest@67b64c45]" name="tearDown" is-config="true" duration-ms="8" started-at="2017-06-15T15:48:24Z" finished-at="2017-06-15T15:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.myconnections.SendConnectionRequestTest -->
+    </test> <!-- SendConnectionRequest -->
+    <test name="AcceptConnectionRequest" duration-ms="46006" started-at="2017-06-15T10:18:24Z" finished-at="2017-06-15T10:19:10Z">
+      <class name="co.rchive.test.spec.myconnections.AcceptConnectionRequestTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.myconnections.AcceptConnectionRequestTest@2f7a2457]" name="setUp" is-config="true" duration-ms="13572" started-at="2017-06-15T15:48:24Z" finished-at="2017-06-15T15:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="acceptConnectionReq()[pri:0, instance:co.rchive.test.spec.myconnections.AcceptConnectionRequestTest@2f7a2457]" name="acceptConnectionReq" duration-ms="32422" started-at="2017-06-15T15:48:37Z" finished-at="2017-06-15T15:49:10Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 23.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcc180d5-9a6d-4541-8920-9dad04b3ea5b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 23.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcc180d5-9a6d-4541-8920-9dad04b3ea5b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at co.rchive.pages.userpages.MyConnectionsPage.isCurrentMyConnectionsWin(MyConnectionsPage.java:79)
+	at co.rchive.pages.userpages.MyConnectionsPage.checkRecievedConnectionStatus(MyConnectionsPage.java:165)
+	at co.rchive.spec.userpages.MyConnectionSpecDefinition.acceptConnecctionReq(MyConnectionSpecDefinition.java:36)
+	at co.rchive.test.spec.myconnections.AcceptConnectionRequestTest.acceptConnectionReq(AcceptConnectionRequestTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9454)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9039)
+	at <anonymous class>.WebElement.getElementText(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12092)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/TEMP/anonymous2381886313315488088webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptConnectionReq -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.myconnections.AcceptConnectionRequestTest@2f7a2457]" name="tearDown" is-config="true" duration-ms="9" started-at="2017-06-15T15:49:10Z" finished-at="2017-06-15T15:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.myconnections.AcceptConnectionRequestTest -->
+    </test> <!-- AcceptConnectionRequest -->
+    <test name="VerifyConnectionRequestEmail" duration-ms="41551" started-at="2017-06-15T10:19:10Z" finished-at="2017-06-15T10:19:51Z">
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest@13969fbe]" name="setUp" is-config="true" duration-ms="27935" started-at="2017-06-15T15:49:10Z" finished-at="2017-06-15T15:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyEmailForConRequest()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest@13969fbe]" name="verifyEmailForConRequest" duration-ms="13602" started-at="2017-06-15T15:49:38Z" finished-at="2017-06-15T15:49:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at co.rchive.spec.verifyemails.VerifyEmailSpecDefinition.verifyRchiveConRequestMail(VerifyEmailSpecDefinition.java:57)
+	at co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest.verifyEmailForConRequest(VerifyConRequestEmailTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailForConRequest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest@13969fbe]" name="tearDown" is-config="true" duration-ms="12" started-at="2017-06-15T15:49:51Z" finished-at="2017-06-15T15:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
+    </test> <!-- VerifyConnectionRequestEmail -->
+    <test name="ScreenplayShareToConnectedUser" duration-ms="58204" started-at="2017-06-15T10:19:51Z" finished-at="2017-06-15T10:20:50Z">
+      <class name="co.rchive.test.spec.share.ShareToConnectedUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.share.ShareToConnectedUserTest@380fb434]" name="setUp" is-config="true" duration-ms="12430" started-at="2017-06-15T15:49:51Z" finished-at="2017-06-15T15:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="shareToConnectedUser()[pri:0, instance:co.rchive.test.spec.share.ShareToConnectedUserTest@380fb434]" name="shareToConnectedUser" duration-ms="45764" started-at="2017-06-15T15:50:04Z" finished-at="2017-06-15T15:50:50Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 192cc045-843a-4d24-8b87-f64bd8307300]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 192cc045-843a-4d24-8b87-f64bd8307300
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.selectScreenplay(DashboardSpecDefinition.java:39)
+	at co.rchive.spec.userpages.ShareSpecDefinition.selectScreenPlay(ShareSpecDefinition.java:38)
+	at co.rchive.test.spec.share.ShareToConnectedUserTest.shareToConnectedUser(ShareToConnectedUserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 192cc045-843a-4d24-8b87-f64bd8307300
+*** Element info: {Using=xpath, value=(//div[@id='first-doc2'])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous4116577739490171885webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/TEMP/anonymous4116577739490171885webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareToConnectedUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.share.ShareToConnectedUserTest@380fb434]" name="tearDown" is-config="true" duration-ms="6" started-at="2017-06-15T15:50:50Z" finished-at="2017-06-15T15:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.share.ShareToConnectedUserTest -->
+    </test> <!-- ScreenplayShareToConnectedUser -->
+    <test name="ReadScreenplaySharedToConnectedUser" duration-ms="18454" started-at="2017-06-15T10:20:50Z" finished-at="2017-06-15T10:21:08Z">
+      <class name="co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest@79698539]" name="setUp" is-config="true" duration-ms="11250" started-at="2017-06-15T15:50:50Z" finished-at="2017-06-15T15:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ReadConUserSharedScreen()[pri:0, instance:co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest@79698539]" name="ReadConUserSharedScreen" duration-ms="7101" started-at="2017-06-15T15:51:01Z" finished-at="2017-06-15T15:51:08Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 1
+	at co.rchive.pages.userpages.DashBoardPage.readSharedScreenplayThroughNotification(DashBoardPage.java:232)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.readConSharedScreenplay(DashboardSpecDefinition.java:31)
+	at co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest.ReadConUserSharedScreen(ReadConnectionUserSharedScreenplayTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadConUserSharedScreen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest@79698539]" name="tearDown" is-config="true" duration-ms="102" started-at="2017-06-15T15:51:08Z" finished-at="2017-06-15T15:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.share.ReadConnectionUserSharedScreenplayTest -->
+    </test> <!-- ReadScreenplaySharedToConnectedUser -->
+    <test name="VerifyConnectionShareEmail" duration-ms="22409" started-at="2017-06-15T10:21:08Z" finished-at="2017-06-15T10:21:31Z">
+      <class name="co.rchive.test.spec.verifyemails.VerifyConShareEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConShareEmailTest@5f2050f6]" name="setUp" is-config="true" duration-ms="6062" started-at="2017-06-15T15:51:08Z" finished-at="2017-06-15T15:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmailForConShare()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConShareEmailTest@5f2050f6]" name="verifyEmailForConShare" duration-ms="14211" started-at="2017-06-15T15:51:14Z" finished-at="2017-06-15T15:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailForConShare -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifyConShareEmailTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="2134" started-at="2017-06-15T15:51:28Z" finished-at="2017-06-15T15:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConShareEmailTest -->
+    </test> <!-- VerifyConnectionShareEmail -->
+    <test name="SmartShare" duration-ms="63775" started-at="2017-06-15T10:21:31Z" finished-at="2017-06-15T10:22:34Z">
+      <class name="co.rchive.test.spec.share.SmartShareTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.share.SmartShareTest@735f7ae5]" name="setUp" is-config="true" duration-ms="15014" started-at="2017-06-15T15:51:31Z" finished-at="2017-06-15T15:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smartShare()[pri:0, instance:co.rchive.test.spec.share.SmartShareTest@735f7ae5]" name="smartShare" duration-ms="48750" started-at="2017-06-15T15:51:46Z" finished-at="2017-06-15T15:52:34Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e240d5-d5a0-4fe4-aa9a-a49b4796b30c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//div[@id='first-doc2'])[1]'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e240d5-d5a0-4fe4-aa9a-a49b4796b30c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at co.rchive.util.Wait.waitForElementToBeClickable(Wait.java:30)
+	at co.rchive.pages.userpages.DashBoardPage.selectSid(DashBoardPage.java:120)
+	at co.rchive.spec.userpages.DashboardSpecDefinition.selectScreenplay(DashboardSpecDefinition.java:39)
+	at co.rchive.spec.userpages.ShareSpecDefinition.selectScreenPlay(ShareSpecDefinition.java:38)
+	at co.rchive.test.spec.share.SmartShareTest.smartShare(SmartShareTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e240d5-d5a0-4fe4-aa9a-a49b4796b30c
+*** Element info: {Using=xpath, value=(//div[@id='first-doc2'])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//div[@id='first-doc2'])[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ThinkPad-PC', ip: '192.168.0.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous2016850576127552426webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/TEMP/anonymous2016850576127552426webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smartShare -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.share.SmartShareTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="8" started-at="2017-06-15T15:52:34Z" finished-at="2017-06-15T15:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.share.SmartShareTest -->
+    </test> <!-- SmartShare -->
+    <test name="VerifySmartShareEmail" duration-ms="40191" started-at="2017-06-15T10:22:34Z" finished-at="2017-06-15T10:23:15Z">
+      <class name="co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest@2ef9b8bc]" name="setUp" is-config="true" duration-ms="6922" started-at="2017-06-15T15:52:34Z" finished-at="2017-06-15T15:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySmartShareLink()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest@2ef9b8bc]" name="verifySmartShareLink" duration-ms="31916" started-at="2017-06-15T15:52:41Z" finished-at="2017-06-15T15:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySmartShareLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="1353" started-at="2017-06-15T15:53:13Z" finished-at="2017-06-15T15:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifySmartShareEmailLinkTest -->
+    </test> <!-- VerifySmartShareEmail -->
+    <test name="LoginThroughFB" duration-ms="56334" started-at="2017-06-15T10:23:15Z" finished-at="2017-06-15T10:24:11Z">
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest@614c5515]" name="setUp" is-config="true" duration-ms="12960" started-at="2017-06-15T15:53:15Z" finished-at="2017-06-15T15:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithFBandDashboardLinksTest()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest@614c5515]" name="loginWithFBandDashboardLinksTest" duration-ms="42476" started-at="2017-06-15T15:53:28Z" finished-at="2017-06-15T15:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithFBandDashboardLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest@614c5515]" name="tearDown" is-config="true" duration-ms="898" started-at="2017-06-15T15:54:10Z" finished-at="2017-06-15T15:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithFBTest -->
+    </test> <!-- LoginThroughFB -->
+    <test name="LoginThroughTwitter" duration-ms="29017" started-at="2017-06-15T10:24:11Z" finished-at="2017-06-15T10:24:40Z">
+      <class name="co.rchive.test.spec.adminpage.AdminLoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:co.rchive.test.spec.adminpage.AdminLoginTest@5ba23b66]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2017-06-15T15:43:35Z" finished-at="2017-06-15T15:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:co.rchive.test.spec.adminpage.AdminLoginTest@5ba23b66]" name="afterSuite" is-config="true" duration-ms="913" started-at="2017-06-15T15:54:40Z" finished-at="2017-06-15T15:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- co.rchive.test.spec.adminpage.AdminLoginTest -->
+      <class name="co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest@4157f54e]" name="setUp" is-config="true" duration-ms="12901" started-at="2017-06-15T15:54:11Z" finished-at="2017-06-15T15:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="twitterLogin()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest@4157f54e]" name="twitterLogin" duration-ms="16109" started-at="2017-06-15T15:54:24Z" finished-at="2017-06-15T15:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest@4157f54e]" name="tearDown" is-config="true" duration-ms="7" started-at="2017-06-15T15:54:40Z" finished-at="2017-06-15T15:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.rchive.test.spec.loginFbAndTwitter.LoginWithTwitterTest -->
+    </test> <!-- LoginThroughTwitter -->
+  </suite> <!-- RegressionTest -->
+</testng-results>
