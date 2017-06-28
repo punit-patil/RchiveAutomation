@@ -24,8 +24,8 @@ public class RchiveEmailVerificationForSignUp {
 
 	@FindBy(xpath = ".//*[@id='identifierNext']")
 	private WebElement btn_Next;
-	
-	@FindBy(id="passwordNext")
+
+	@FindBy(id = "passwordNext")
 	private WebElement passwordNext;
 
 	@FindBy(id = "PersistentCookie")
@@ -79,8 +79,8 @@ public class RchiveEmailVerificationForSignUp {
 		txtbx_Paswd.click();
 		txtbx_Paswd.sendKeys(pasword);
 		passwordNext.click();
-	//	chk_StaySignedIn.click();
-	//	btn_SignIn.click();
+		// chk_StaySignedIn.click();
+		// btn_SignIn.click();
 	}
 
 	public void logout() {
@@ -139,19 +139,20 @@ public class RchiveEmailVerificationForSignUp {
 				// switch to newly opened Rchive window
 				if (!childWindow.equals(parentWindow)) {
 					driver.switchTo().window(childWindow);
-					System.out.println(accountVerified.getText());
+					// System.out.println(accountVerified.getText());
 
 					break;
 				}
 			}
 		}
-		System.out.println(accountVerified.getText().equalsIgnoreCase(popupVerify));
+		// System.out.println(accountVerified.getText().equalsIgnoreCase(popupVerify));
 		return (accountVerified.getText().equalsIgnoreCase(popupVerify));
 	}
 
 	public void delOpenedMail() {
 		new Wait(driver).waitForElementToBeClickable(btn_DelThisMsg, 5);
 		btn_DelThisMsg.click();
+		isAlertPresent();
 	}
 
 	public boolean verifyRchiveWelcomeEmail(String senderName, String subject) {

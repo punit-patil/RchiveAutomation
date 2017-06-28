@@ -21,11 +21,11 @@ public class AcceptConnectionRequestTest extends TestBase {
 	@Test
 	public void acceptConnectionReq() {
 		MyConnectionSpecDefinition conReqUser = new MyConnectionSpecDefinition(driver);
+		DashboardSpecDefinition dash = new DashboardSpecDefinition(driver);
 		conReqUser.loginToRchiveWithEmail(prop.getProperty("email_accept_request"),
 				prop.getProperty("pass_accept_request"));
 		// conReqUser.goToMyConnections();
 		conReqUser.acceptConnecctionReq();
-		DashboardSpecDefinition dash = new DashboardSpecDefinition(driver);
 		dash.logoutFromRchive();
 	}
 }

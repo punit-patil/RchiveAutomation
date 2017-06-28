@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest">
+      <class name="co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest">
         <methods>
-          <include name="verifyEmailforSignUp"/>
+          <include name="verifyEmailForConRequest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- co.rchive.test.spec.verifyemails.VerifySignUpEmailLinkTest -->
+      </class> <!-- co.rchive.test.spec.verifyemails.VerifyConRequestEmailTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

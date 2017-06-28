@@ -205,7 +205,7 @@ public class DashBoardPage {
 			robot.keyRelease(KeyEvent.VK_V);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
 
-			new Wait(driver).sleepFor(500);
+			new Wait(driver).sleepFor(3000);
 			// press enter,release enter
 			robot.keyPress(KeyEvent.VK_ENTER);
 			robot.keyRelease(KeyEvent.VK_ENTER);

@@ -22,7 +22,7 @@ public class DeleteSignUpEmailTest extends TestBase {
 	public void deleteEmailforSignUp() {
 		VerifyEmailSpecDefinition user = new VerifyEmailSpecDefinition(driver);
 		user.loginToUserEmail(prop.getProperty("email"), prop.getProperty("password_gmail"));
-		user.deleteSignUpEmail();
+		user.deleteRequiredEmail();
 		user.logOutUserEmail();
 		// user.verifyRchiveWelcomeMailAndDelEmail();
 	}

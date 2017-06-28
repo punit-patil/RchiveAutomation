@@ -38,7 +38,7 @@ public class VerifyEmailSpecDefinition {
 		return this;
 	}
 
-	public void deleteSignUpEmail() {
+	public void deleteRequiredEmail() {
 		Assert.assertTrue(deletemail.deleteRchiveWelcomeEmail("rchive", "rchive verification email"));
 
 	}
@@ -51,11 +51,13 @@ public class VerifyEmailSpecDefinition {
 	public void verifyRchiveConShareMail() {
 		Assert.assertTrue(
 				verifyConShare.verifyRchiveConShareEmail("rchive", "Invitation to Review Screenplay on Rchive"));
+		verifyConShare.delOpenedMail();
 	}
 
 	public void verifyRchiveConRequestMail() {
 		Assert.assertTrue(verifyConReqMail.verifyRchiveConRequestEmail("rchive", "Rchive Connection Request",
 				"Please click here to accept and join their network."));
+		verifyConShare.delOpenedMail();
 	}
 
 	public void verifyRchiveSmartShareMail() {

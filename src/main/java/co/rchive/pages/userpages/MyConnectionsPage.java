@@ -191,10 +191,24 @@ public class MyConnectionsPage {
 		windowName = "My Connections";
 		if (controlFlag && isCurrentMyConnectionsWin(windowName)) {
 			// check connections present
-			List<WebElement> connectionsList = driver.findElements(By.xpath("//div[@id='replace_friends']/div"));
-			if (connectionsList.size() > 0) {
-				System.out.println(connectionsList.size());
+		//	List<WebElement> connectionsList = driver.findElements(By.xpath("//div[@id='replace_friends']/div"));
+		
+			List<WebElement> conList=driver.findElements(By.xpath(".//*[@id='replace_friends']/div/div/div/div[2]/p/a"));
+			
+			for(WebElement ele:conList){
+				System.out.println(ele.getText());
+				if(ele.getText().equals(requesterName)){
+					statusFlag = true;
+					break;
+				}
+				
+			}
+			
+			/*if (conList.size() > 0) {
+				System.out.println(conList.size());
 				// fetch connections name & verify requester name present
+				
+				
 				for (int i = 0; i < connectionsList.size(); i++) {
 					int n = i + 1;
 					String namesOfCon = driver
@@ -205,8 +219,8 @@ public class MyConnectionsPage {
 						statusFlag = true;
 						break;
 					}
-				}
-			}
+				}*/
+			
 		}
 		return statusFlag;
 	}
