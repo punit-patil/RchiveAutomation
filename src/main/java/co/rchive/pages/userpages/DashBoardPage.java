@@ -209,6 +209,9 @@ public class DashBoardPage {
 			// press enter,release enter
 			robot.keyPress(KeyEvent.VK_ENTER);
 			robot.keyRelease(KeyEvent.VK_ENTER);
+			
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
 
 			System.out.println("uploaded file -" + fileAbsolutePath);
 		} catch (AWTException e) {

@@ -93,7 +93,8 @@ public class RchiveEmailDeleteForSignUp {
 
 	public boolean deleteRchiveWelcomeEmail(String senderName, String subject) {
 		boolean deleteVerfiMail = false;
-//table id changes in gmail frequently so look in the dom of gmail for new id
+		// table id changes in gmail frequently so look in the dom of gmail for
+		// new id
 		emails = driver.findElements(By.xpath(".//*[@id=':2x']/tbody/tr"));
 
 		// iterate mails
